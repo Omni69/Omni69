@@ -1,0 +1,24 @@
+name: Atualizar README
+
+on:
+  schedule:
+    - cron: "0 */12 * * *" # Atualiza a cada 12 horas
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout do repositório
+        uses: actions/checkout@v3
+
+      - name: Atualizar os dados do README
+        uses: lowlighter/metrics@latest
+        with:
+          filename: README.md
+          token: ${{ secrets.GITHUB_TOKEN }}
+          user: Omni69
+          template: classic
+          base: header, activity, community, repositories, metadata
+          config_timezone: America/Fortaleza
