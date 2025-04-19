@@ -4,14 +4,13 @@
 
 ## 🧠 Sobre mim
 
-Sou estudante de **Informática** e atuo como **designer gráfico** e **desenvolvedor web**. Tenho experiência com **HTML**, **CSS**, **JavaScript**, **Java**, **MySQL**, **Node.js**, e outras tecnologias. Também trabalho com ferramentas de design como **Figma**, **Photoshop**, **GIMP**, e **Canva**, criando interfaces e designs atraentes.
+Sou estudante de **Informática** e atuo como **designer gráfico** e **desenvolvedor web**. Tenho experiência com **HTML**, **CSS**, **JavaScript**, **Java**, **MySQL**, **Node.js**, entre outras tecnologias. Também trabalho com ferramentas de design como **Figma**, **Photoshop**, **GIMP**, e **Canva**, criando interfaces e designs atraentes.
 
 ## 🛠️ Tecnologias que utilizo
 
 - **Linguagens de Programação:** HTML, CSS, JavaScript, Java, MySQL, Node.js
 - **Ferramentas de Design:** Figma, Photoshop, GIMP, Canva
 - **Controle de versão e colaboração:** Git, GitHub
-- **Outras Tecnologias:** API REST, Firebase, Express.js
 
 ## 📊 GitHub Stats
 
