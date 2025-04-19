@@ -35,7 +35,7 @@ Sou estudante de **Informática** e atuo como **designer gráfico** e **desenvol
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/photoshop/photoshop-plain.svg" title="Photoshop" height="40"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/gimp/gimp-original.svg" title="GIMP" height="40"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/canva/canva-original.svg" title="Canva" height="40"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/photopea/photopea-original.svg" title="Photopea" height="40"/>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/8/8c/Photopea_Logo.svg" title="Photopea" height="40"/>
 </div>
 
 ---
