@@ -1,24 +1,47 @@
-name: Atualizar README
+name: "Omni69 Profile"
 
 on:
-  schedule:
-    - cron: "0 */12 * * *" # Atualiza a cada 12 horas
-  workflow_dispatch:
+  push:
+    branches:
+      - main
 
 jobs:
   build:
     runs-on: ubuntu-latest
-
+    
     steps:
-      - name: Checkout do repositório
-        uses: actions/checkout@v3
+    - name: "Checkout Repository"
+      uses: actions/checkout@v2
+    
+    - name: "Set up Node.js"
+      uses: actions/setup-node@v2
+      with:
+        node-version: '16'
+    
+    - name: "Install Dependencies"
+      run: npm install
 
-      - name: Atualizar os dados do README
-        uses: lowlighter/metrics@latest
-        with:
-          filename: README.md
-          token: ${{ secrets.GITHUB_TOKEN }}
-          user: Omni69
-          template: classic
-          base: header, activity, community, repositories, metadata
-          config_timezone: America/Fortaleza
+    - name: "Generate README"
+      run: |
+        echo "Olá, eu sou o Ômni! 👋" >> README.md
+        echo "💻 Desenvolvedor em formação | 🎨 Designer Gráfico | 🚀 Apaixonado por criar soluções inovadoras" >> README.md
+        echo "```" >> README.md
+        echo "## 🧠 Sobre mim" >> README.md
+        echo "Sou estudante de **Informática** e atuo como **designer gráfico** e **desenvolvedor web**. Tenho experiência com **HTML**, **CSS**, **JavaScript**, **Java**, **MySQL**, **Node.js**, e outras tecnologias." >> README.md
+        echo "## 🛠️ Tecnologias que utilizo" >> README.md
+        echo "- HTML, CSS, JavaScript, Java, MySQL, Node.js, GitHub" >> README.md
+        echo "- Figma, Photoshop, GIMP, Photopea, Canva" >> README.md
+        echo "```" >> README.md
+        echo "## 📊 GitHub Stats" >> README.md
+        echo "![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Omni69&show_icons=true&theme=radical)" >> README.md
+        echo "![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Omni69&layout=compact&theme=radical)" >> README.md
+        echo "![Streak Stats](https://streak-stats.demolab.com?user=Omni69&theme=radical)" >> README.md
+        echo "```" >> README.md
+        echo "## 🚀 Qualidades" >> README.md
+        echo "- Criativo e orientado a resultados" >> README.md
+        echo "- Habilidade em trabalhar em equipe" >> README.md
+        echo "- Facilidade para aprender novas tecnologias" >> README.md
+        echo "- Comprometido com o desenvolvimento de soluções eficientes" >> README.md
+        echo "📧 omnisilva8@gmail.com" >> README.md
+        echo "📍 Maracanaú - CE" >> README.md
+        echo "Vamos criar algo incrível juntos? 🚀" >> README.md
