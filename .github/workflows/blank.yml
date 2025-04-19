@@ -30,7 +30,7 @@ jobs:
         echo "Sou estudante de **Informática** e atuo como **designer gráfico** e **desenvolvedor web**. Tenho experiência com **HTML**, **CSS**, **JavaScript**, **Java**, **MySQL**, **Node.js**, e outras tecnologias." >> README.md
         echo "## 🛠️ Tecnologias que utilizo" >> README.md
         echo "- HTML, CSS, JavaScript, Java, MySQL, Node.js, GitHub" >> README.md
-        echo "- Figma, Photoshop, GIMP, Photopea, Canva" >> README.md
+        echo "- Figma, Photoshop, GIMP, Canva" >> README.md
         echo "```" >> README.md
         echo "## 📊 GitHub Stats" >> README.md
         echo "![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Omni69&show_icons=true&theme=radical)" >> README.md
